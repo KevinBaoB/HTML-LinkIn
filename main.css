@@ -1,1 +1,133 @@
 /* write styles here */
+* {
+  font-family: "Georgia";
+}
+
+.main-container {
+  display: flex;
+  flex-direction: column;
+  justify-self: center;
+  align-items: center;
+}
+
+.profile-container {
+  border: 2px solid black;
+  border-radius: 5px;
+  padding: 10px;
+  width: 75%;
+}
+
+.cover {
+  border-radius: 10px;
+  display: inline;
+  position: relative;
+  overflow: hidden;
+  max-height: 10%;
+  max-width: 100%;
+  z-index: 1;
+  overflow: hidden;
+  /* top: 20px; */
+}
+
+.side-info {
+  position: relative;
+  text-align: right;
+  right: 4%;
+  margin: 30px;
+  font-weight: bold;
+}
+
+.profile {
+  display: block;
+  position: relative;
+  z-index: 2;
+}
+
+.garfield {
+  border: 5px solid white;
+  border-radius: 50%;
+  max-height: 20%;
+  max-width: 20%;
+  margin: -18% 0 10px 20px;
+}
+
+.Name {
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.organization {
+  font-size: 20px;
+}
+
+.navigation {
+  margin: 10px;
+}
+
+.navbar {
+  position: relative;
+  align-content: right;
+
+  /* left: 80px; */
+}
+
+.navbar li {
+  list-style-type: none;
+  padding: 10px;
+  display: inline;
+  font-size: 20px;
+  position: relative;
+  min-height: 50px;
+  margin-bottom: 20px;
+  border: 1px solid transparent;
+
+  /* border-right: 1px solid grey; */
+}
+
+.navbar ul {
+}
+
+.navbar li:hover {
+  color: #82d1f1;
+}
+
+.address,
+.contact {
+  display: inline;
+  font-size: 18px;
+  /* margin: 10px; */
+}
+
+.address {
+  color: grey;
+}
+
+.contact:hover {
+  color: #82d1f1;
+}
+
+.positions {
+  font-size: 20px;
+}
+
+.modal-container {
+  margin-top: 5px;
+}
+
+.modal {
+  display: inline;
+  border: 2px solid #019ef3;
+  border-radius: 10px;
+  padding: 3px;
+  font-weight: bold;
+
+  /* margin: 10px; */
+}
+
+.modal:hover {
+  background-color: #a4dffd;
+}
+
+/* .description {
+
+} */
